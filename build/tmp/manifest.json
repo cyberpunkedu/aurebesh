@@ -1,0 +1,15 @@
+{
+    "maintainer": "Joe <joe@ubports.com>", 
+    "name": "aurebesh.joe", 
+    "title": "Aurebesh", 
+    "hooks": {
+        "aurebesh": {
+            "apparmor": "aurebesh.joe.apparmor", 
+            "desktop": "aurebesh.joe.desktop"
+        }
+    }, 
+    "framework": "ubuntu-sdk-15.04.6", 
+    "version": "0.1", 
+    "architecture": "all", 
+    "description": "Learn to read Aurebesh"
+}

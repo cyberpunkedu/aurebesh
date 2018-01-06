@@ -1,0 +1,14 @@
+{
+    "name": "aurebesh.joe",
+    "description": "Learn to read Aurebesh",
+    "title": "Aurebesh",
+    "hooks": {
+        "aurebesh": {
+            "apparmor": "aurebesh.joe.apparmor",
+            "desktop":  "aurebesh.joe.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Joe <joe@ubports.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
