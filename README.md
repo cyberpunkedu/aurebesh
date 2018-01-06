@@ -11,6 +11,11 @@ Set up [clickable](https://github.com/bhdouglass/clickable) and run `clickable` 
 
 Based on the [Aurebesh Trainer](http://ootinicast.com/aurebesh-trainer/) by Jason Etheridge <teo@ootinicast.com>.
 
+## To Do
+* Add single letters-only option
+* Add improved feedback
+* Improve layout and design
+
 ## Legal
 
 This program is free software: you can redistribute it and/or modify

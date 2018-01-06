@@ -6,7 +6,6 @@
 //qml/modules/DefaultHeader.qml
 //qml/modules/DefaultLabel.qml
 //qml/Main.qml
-//assets/aurebesh_trainer.js
 //assets/trainer.js
 //assets/logo.png
 //assets/aurebesh.ttf
