@@ -9,7 +9,7 @@
         }
     }, 
     "framework": "ubuntu-sdk-15.04.6", 
-    "version": "0.1", 
+    "version": "0.2", 
     "architecture": "all", 
     "description": "Learn to read Aurebesh"
 }
