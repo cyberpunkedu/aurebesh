@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 # Utility rule file for pofiles.
 
@@ -56,10 +56,10 @@ po/CMakeFiles/pofiles.dir/build: pofiles
 .PHONY : po/CMakeFiles/pofiles.dir/build
 
 po/CMakeFiles/pofiles.dir/clean:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles.dir/cmake_clean.cmake
+	cd /home/black/ownCloud/aurebesh/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/pofiles.dir/clean
 
 po/CMakeFiles/pofiles.dir/depend:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh-trainer/aurebesh /home/black/ownCloud/aurebesh-trainer/aurebesh/po /home/black/ownCloud/aurebesh-trainer/aurebesh/build /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po/CMakeFiles/pofiles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh /home/black/ownCloud/aurebesh/po /home/black/ownCloud/aurebesh/build /home/black/ownCloud/aurebesh/build/po /home/black/ownCloud/aurebesh/build/po/CMakeFiles/pofiles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/pofiles.dir/depend
 

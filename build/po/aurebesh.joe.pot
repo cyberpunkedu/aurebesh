@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aurebesh.joe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-06 18:10+0000\n"
+"POT-Creation-Date: 2018-01-07 16:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,12 +22,24 @@ msgstr ""
 msgid "Aurebesh"
 msgstr ""
 
+#: ../qml/Home.qml:88
+msgid "Impressive."
+msgstr ""
+
+#: ../qml/Home.qml:89
+msgid "There is no try."
+msgstr ""
+
 #: ../qml/Home.qml:97
 msgid "Check"
 msgstr ""
 
 #: ../qml/Home.qml:104
 msgid "Skip"
+msgstr ""
+
+#: ../qml/Home.qml:124
+msgid "Do. Or do not."
 msgstr ""
 
 #: ../qml/AboutApp.qml:47

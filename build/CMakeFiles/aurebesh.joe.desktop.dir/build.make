@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 # Utility rule file for aurebesh.joe.desktop.
 
@@ -46,10 +46,10 @@ CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
 include CMakeFiles/aurebesh.joe.desktop.dir/progress.make
 
 CMakeFiles/aurebesh.joe.desktop:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Merging translations into aurebesh.joe.desktop..."
-	LC_ALL=C /usr/bin/intltool-merge -d -u /home/black/ownCloud/aurebesh-trainer/aurebesh/po /home/black/ownCloud/aurebesh-trainer/aurebesh/aurebesh.joe.desktop.in aurebesh.joe.desktop
-	sed -i 's/aurebesh.joe-//g' /home/black/ownCloud/aurebesh-trainer/aurebesh/build/aurebesh.joe.desktop
+	LC_ALL=C /usr/bin/intltool-merge -d -u /home/black/ownCloud/aurebesh/po /home/black/ownCloud/aurebesh/aurebesh.joe.desktop.in aurebesh.joe.desktop
+	sed -i 's/aurebesh.joe-//g' /home/black/ownCloud/aurebesh/build/aurebesh.joe.desktop
 
 aurebesh.joe.desktop: CMakeFiles/aurebesh.joe.desktop
 aurebesh.joe.desktop: CMakeFiles/aurebesh.joe.desktop.dir/build.make
@@ -64,6 +64,6 @@ CMakeFiles/aurebesh.joe.desktop.dir/clean:
 .PHONY : CMakeFiles/aurebesh.joe.desktop.dir/clean
 
 CMakeFiles/aurebesh.joe.desktop.dir/depend:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh-trainer/aurebesh /home/black/ownCloud/aurebesh-trainer/aurebesh /home/black/ownCloud/aurebesh-trainer/aurebesh/build /home/black/ownCloud/aurebesh-trainer/aurebesh/build /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles/aurebesh.joe.desktop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh /home/black/ownCloud/aurebesh /home/black/ownCloud/aurebesh/build /home/black/ownCloud/aurebesh/build /home/black/ownCloud/aurebesh/build/CMakeFiles/aurebesh.joe.desktop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aurebesh.joe.desktop.dir/depend
 

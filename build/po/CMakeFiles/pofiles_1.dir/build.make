@@ -35,25 +35,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 # Utility rule file for pofiles_1.
 
 # Include the progress variables for this target.
 include po/CMakeFiles/pofiles_1.dir/progress.make
 
-po/CMakeFiles/pofiles_1: po/he.gmo
+po/CMakeFiles/pofiles_1: po/fr.gmo
 
-po/he.gmo: ../po/he.po
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating he.gmo"
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/po && /usr/bin/msgfmt -o /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po/he.gmo /home/black/ownCloud/aurebesh-trainer/aurebesh/po/he.po
+po/fr.gmo: ../po/fr.po
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating fr.gmo"
+	cd /home/black/ownCloud/aurebesh/po && /usr/bin/msgfmt -o /home/black/ownCloud/aurebesh/build/po/fr.gmo /home/black/ownCloud/aurebesh/po/fr.po
 
 pofiles_1: po/CMakeFiles/pofiles_1
-pofiles_1: po/he.gmo
+pofiles_1: po/fr.gmo
 pofiles_1: po/CMakeFiles/pofiles_1.dir/build.make
 .PHONY : pofiles_1
 
@@ -62,10 +62,10 @@ po/CMakeFiles/pofiles_1.dir/build: pofiles_1
 .PHONY : po/CMakeFiles/pofiles_1.dir/build
 
 po/CMakeFiles/pofiles_1.dir/clean:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles_1.dir/cmake_clean.cmake
+	cd /home/black/ownCloud/aurebesh/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles_1.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/pofiles_1.dir/clean
 
 po/CMakeFiles/pofiles_1.dir/depend:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh-trainer/aurebesh /home/black/ownCloud/aurebesh-trainer/aurebesh/po /home/black/ownCloud/aurebesh-trainer/aurebesh/build /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po/CMakeFiles/pofiles_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh /home/black/ownCloud/aurebesh/po /home/black/ownCloud/aurebesh/build /home/black/ownCloud/aurebesh/build/po /home/black/ownCloud/aurebesh/build/po/CMakeFiles/pofiles_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/pofiles_1.dir/depend
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 # Utility rule file for run.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run:
-	/usr/bin/qmlscene /home/black/ownCloud/aurebesh-trainer/aurebesh/qml/Main.qml
+	/usr/bin/qmlscene /home/black/ownCloud/aurebesh/qml/Main.qml
 
 run: CMakeFiles/run
 run: CMakeFiles/run.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh-trainer/aurebesh /home/black/ownCloud/aurebesh-trainer/aurebesh /home/black/ownCloud/aurebesh-trainer/aurebesh/build /home/black/ownCloud/aurebesh-trainer/aurebesh/build /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh /home/black/ownCloud/aurebesh /home/black/ownCloud/aurebesh/build /home/black/ownCloud/aurebesh/build /home/black/ownCloud/aurebesh/build/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run.dir/depend
 

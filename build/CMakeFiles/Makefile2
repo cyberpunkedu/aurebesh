@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/aurebesh.joe.desktop.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
 CMakeFiles/aurebesh.joe.desktop.dir/all:
 	$(MAKE) -f CMakeFiles/aurebesh.joe.desktop.dir/build.make CMakeFiles/aurebesh.joe.desktop.dir/depend
 	$(MAKE) -f CMakeFiles/aurebesh.joe.desktop.dir/build.make CMakeFiles/aurebesh.joe.desktop.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles  1
 	@echo "Built target aurebesh.joe.desktop"
 .PHONY : CMakeFiles/aurebesh.joe.desktop.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/aurebesh.joe.desktop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aurebesh.joe.desktop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aurebesh.joe.desktop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : CMakeFiles/aurebesh.joe.desktop.dir/rule
 
 # Convenience name for target.
@@ -94,7 +94,7 @@ clean: CMakeFiles/aurebesh.joe.desktop.dir/clean
 CMakeFiles/aurebesh_Files.dir/all:
 	$(MAKE) -f CMakeFiles/aurebesh_Files.dir/build.make CMakeFiles/aurebesh_Files.dir/depend
 	$(MAKE) -f CMakeFiles/aurebesh_Files.dir/build.make CMakeFiles/aurebesh_Files.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles 
 	@echo "Built target aurebesh_Files"
 .PHONY : CMakeFiles/aurebesh_Files.dir/all
 
@@ -104,9 +104,9 @@ all: CMakeFiles/aurebesh_Files.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aurebesh_Files.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aurebesh_Files.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : CMakeFiles/aurebesh_Files.dir/rule
 
 # Convenience name for target.
@@ -129,15 +129,15 @@ clean: CMakeFiles/aurebesh_Files.dir/clean
 CMakeFiles/run.dir/all:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles 
 	@echo "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
 
 # Convenience name for target.
@@ -159,54 +159,12 @@ clean: CMakeFiles/run.dir/clean
 # Convenience name for "all" pass in the directory.
 po/all: po/CMakeFiles/aurebesh.joe.pot.dir/all
 po/all: po/CMakeFiles/pofiles_1.dir/all
-po/all: po/CMakeFiles/pofiles_10.dir/all
-po/all: po/CMakeFiles/pofiles_11.dir/all
-po/all: po/CMakeFiles/pofiles_12.dir/all
-po/all: po/CMakeFiles/pofiles_13.dir/all
-po/all: po/CMakeFiles/pofiles_14.dir/all
-po/all: po/CMakeFiles/pofiles_15.dir/all
-po/all: po/CMakeFiles/pofiles_16.dir/all
-po/all: po/CMakeFiles/pofiles_17.dir/all
-po/all: po/CMakeFiles/pofiles_18.dir/all
-po/all: po/CMakeFiles/pofiles_19.dir/all
-po/all: po/CMakeFiles/pofiles_2.dir/all
-po/all: po/CMakeFiles/pofiles_20.dir/all
-po/all: po/CMakeFiles/pofiles_21.dir/all
-po/all: po/CMakeFiles/pofiles_22.dir/all
-po/all: po/CMakeFiles/pofiles_3.dir/all
-po/all: po/CMakeFiles/pofiles_4.dir/all
-po/all: po/CMakeFiles/pofiles_5.dir/all
-po/all: po/CMakeFiles/pofiles_6.dir/all
-po/all: po/CMakeFiles/pofiles_7.dir/all
-po/all: po/CMakeFiles/pofiles_8.dir/all
-po/all: po/CMakeFiles/pofiles_9.dir/all
 .PHONY : po/all
 
 # Convenience name for "clean" pass in the directory.
 po/clean: po/CMakeFiles/aurebesh.joe.pot.dir/clean
 po/clean: po/CMakeFiles/pofiles.dir/clean
 po/clean: po/CMakeFiles/pofiles_1.dir/clean
-po/clean: po/CMakeFiles/pofiles_10.dir/clean
-po/clean: po/CMakeFiles/pofiles_11.dir/clean
-po/clean: po/CMakeFiles/pofiles_12.dir/clean
-po/clean: po/CMakeFiles/pofiles_13.dir/clean
-po/clean: po/CMakeFiles/pofiles_14.dir/clean
-po/clean: po/CMakeFiles/pofiles_15.dir/clean
-po/clean: po/CMakeFiles/pofiles_16.dir/clean
-po/clean: po/CMakeFiles/pofiles_17.dir/clean
-po/clean: po/CMakeFiles/pofiles_18.dir/clean
-po/clean: po/CMakeFiles/pofiles_19.dir/clean
-po/clean: po/CMakeFiles/pofiles_2.dir/clean
-po/clean: po/CMakeFiles/pofiles_20.dir/clean
-po/clean: po/CMakeFiles/pofiles_21.dir/clean
-po/clean: po/CMakeFiles/pofiles_22.dir/clean
-po/clean: po/CMakeFiles/pofiles_3.dir/clean
-po/clean: po/CMakeFiles/pofiles_4.dir/clean
-po/clean: po/CMakeFiles/pofiles_5.dir/clean
-po/clean: po/CMakeFiles/pofiles_6.dir/clean
-po/clean: po/CMakeFiles/pofiles_7.dir/clean
-po/clean: po/CMakeFiles/pofiles_8.dir/clean
-po/clean: po/CMakeFiles/pofiles_9.dir/clean
 .PHONY : po/clean
 
 # Convenience name for "preinstall" pass in the directory.
@@ -220,7 +178,7 @@ po/preinstall:
 po/CMakeFiles/aurebesh.joe.pot.dir/all:
 	$(MAKE) -f po/CMakeFiles/aurebesh.joe.pot.dir/build.make po/CMakeFiles/aurebesh.joe.pot.dir/depend
 	$(MAKE) -f po/CMakeFiles/aurebesh.joe.pot.dir/build.make po/CMakeFiles/aurebesh.joe.pot.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles  2
 	@echo "Built target aurebesh.joe.pot"
 .PHONY : po/CMakeFiles/aurebesh.joe.pot.dir/all
 
@@ -230,9 +188,9 @@ all: po/CMakeFiles/aurebesh.joe.pot.dir/all
 
 # Build rule for subdir invocation for target.
 po/CMakeFiles/aurebesh.joe.pot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/aurebesh.joe.pot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : po/CMakeFiles/aurebesh.joe.pot.dir/rule
 
 # Convenience name for target.
@@ -253,38 +211,17 @@ clean: po/CMakeFiles/aurebesh.joe.pot.dir/clean
 
 # All Build rule for target.
 po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_1.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_10.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_3.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_2.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_6.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_22.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_4.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_5.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_7.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_8.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_9.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_11.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_13.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_12.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_15.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_14.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_16.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_17.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_18.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_21.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_19.dir/all
-po/CMakeFiles/pofiles.dir/all: po/CMakeFiles/pofiles_20.dir/all
 	$(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/depend
 	$(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles 
 	@echo "Built target pofiles"
 .PHONY : po/CMakeFiles/pofiles.dir/all
 
 # Build rule for subdir invocation for target.
 po/CMakeFiles/pofiles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : po/CMakeFiles/pofiles.dir/rule
 
 # Convenience name for target.
@@ -307,7 +244,7 @@ clean: po/CMakeFiles/pofiles.dir/clean
 po/CMakeFiles/pofiles_1.dir/all:
 	$(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/depend
 	$(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles  3
 	@echo "Built target pofiles_1"
 .PHONY : po/CMakeFiles/pofiles_1.dir/all
 
@@ -317,9 +254,9 @@ all: po/CMakeFiles/pofiles_1.dir/all
 
 # Build rule for subdir invocation for target.
 po/CMakeFiles/pofiles_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : po/CMakeFiles/pofiles_1.dir/rule
 
 # Convenience name for target.
@@ -333,741 +270,6 @@ po/CMakeFiles/pofiles_1.dir/clean:
 
 # clean rule for target.
 clean: po/CMakeFiles/pofiles_1.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_10.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_10.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_10.dir/build.make po/CMakeFiles/pofiles_10.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_10.dir/build.make po/CMakeFiles/pofiles_10.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  4
-	@echo "Built target pofiles_10"
-.PHONY : po/CMakeFiles/pofiles_10.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_10.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_10.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_10.dir/rule
-
-# Convenience name for target.
-pofiles_10: po/CMakeFiles/pofiles_10.dir/rule
-.PHONY : pofiles_10
-
-# clean rule for target.
-po/CMakeFiles/pofiles_10.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_10.dir/build.make po/CMakeFiles/pofiles_10.dir/clean
-.PHONY : po/CMakeFiles/pofiles_10.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_10.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_11.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_11.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_11.dir/build.make po/CMakeFiles/pofiles_11.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_11.dir/build.make po/CMakeFiles/pofiles_11.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  5
-	@echo "Built target pofiles_11"
-.PHONY : po/CMakeFiles/pofiles_11.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_11.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_11.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_11.dir/rule
-
-# Convenience name for target.
-pofiles_11: po/CMakeFiles/pofiles_11.dir/rule
-.PHONY : pofiles_11
-
-# clean rule for target.
-po/CMakeFiles/pofiles_11.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_11.dir/build.make po/CMakeFiles/pofiles_11.dir/clean
-.PHONY : po/CMakeFiles/pofiles_11.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_11.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_12.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_12.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_12.dir/build.make po/CMakeFiles/pofiles_12.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_12.dir/build.make po/CMakeFiles/pofiles_12.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  6
-	@echo "Built target pofiles_12"
-.PHONY : po/CMakeFiles/pofiles_12.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_12.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_12.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_12.dir/rule
-
-# Convenience name for target.
-pofiles_12: po/CMakeFiles/pofiles_12.dir/rule
-.PHONY : pofiles_12
-
-# clean rule for target.
-po/CMakeFiles/pofiles_12.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_12.dir/build.make po/CMakeFiles/pofiles_12.dir/clean
-.PHONY : po/CMakeFiles/pofiles_12.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_12.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_13.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_13.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_13.dir/build.make po/CMakeFiles/pofiles_13.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_13.dir/build.make po/CMakeFiles/pofiles_13.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  7
-	@echo "Built target pofiles_13"
-.PHONY : po/CMakeFiles/pofiles_13.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_13.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_13.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_13.dir/rule
-
-# Convenience name for target.
-pofiles_13: po/CMakeFiles/pofiles_13.dir/rule
-.PHONY : pofiles_13
-
-# clean rule for target.
-po/CMakeFiles/pofiles_13.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_13.dir/build.make po/CMakeFiles/pofiles_13.dir/clean
-.PHONY : po/CMakeFiles/pofiles_13.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_13.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_14.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_14.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_14.dir/build.make po/CMakeFiles/pofiles_14.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_14.dir/build.make po/CMakeFiles/pofiles_14.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  8
-	@echo "Built target pofiles_14"
-.PHONY : po/CMakeFiles/pofiles_14.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_14.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_14.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_14.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_14.dir/rule
-
-# Convenience name for target.
-pofiles_14: po/CMakeFiles/pofiles_14.dir/rule
-.PHONY : pofiles_14
-
-# clean rule for target.
-po/CMakeFiles/pofiles_14.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_14.dir/build.make po/CMakeFiles/pofiles_14.dir/clean
-.PHONY : po/CMakeFiles/pofiles_14.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_14.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_15.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_15.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_15.dir/build.make po/CMakeFiles/pofiles_15.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_15.dir/build.make po/CMakeFiles/pofiles_15.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  9
-	@echo "Built target pofiles_15"
-.PHONY : po/CMakeFiles/pofiles_15.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_15.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_15.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_15.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_15.dir/rule
-
-# Convenience name for target.
-pofiles_15: po/CMakeFiles/pofiles_15.dir/rule
-.PHONY : pofiles_15
-
-# clean rule for target.
-po/CMakeFiles/pofiles_15.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_15.dir/build.make po/CMakeFiles/pofiles_15.dir/clean
-.PHONY : po/CMakeFiles/pofiles_15.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_15.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_16.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_16.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_16.dir/build.make po/CMakeFiles/pofiles_16.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_16.dir/build.make po/CMakeFiles/pofiles_16.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  10
-	@echo "Built target pofiles_16"
-.PHONY : po/CMakeFiles/pofiles_16.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_16.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_16.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_16.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_16.dir/rule
-
-# Convenience name for target.
-pofiles_16: po/CMakeFiles/pofiles_16.dir/rule
-.PHONY : pofiles_16
-
-# clean rule for target.
-po/CMakeFiles/pofiles_16.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_16.dir/build.make po/CMakeFiles/pofiles_16.dir/clean
-.PHONY : po/CMakeFiles/pofiles_16.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_16.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_17.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_17.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_17.dir/build.make po/CMakeFiles/pofiles_17.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_17.dir/build.make po/CMakeFiles/pofiles_17.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  11
-	@echo "Built target pofiles_17"
-.PHONY : po/CMakeFiles/pofiles_17.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_17.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_17.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_17.dir/rule
-
-# Convenience name for target.
-pofiles_17: po/CMakeFiles/pofiles_17.dir/rule
-.PHONY : pofiles_17
-
-# clean rule for target.
-po/CMakeFiles/pofiles_17.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_17.dir/build.make po/CMakeFiles/pofiles_17.dir/clean
-.PHONY : po/CMakeFiles/pofiles_17.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_17.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_18.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_18.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_18.dir/build.make po/CMakeFiles/pofiles_18.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_18.dir/build.make po/CMakeFiles/pofiles_18.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  12
-	@echo "Built target pofiles_18"
-.PHONY : po/CMakeFiles/pofiles_18.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_18.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_18.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_18.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_18.dir/rule
-
-# Convenience name for target.
-pofiles_18: po/CMakeFiles/pofiles_18.dir/rule
-.PHONY : pofiles_18
-
-# clean rule for target.
-po/CMakeFiles/pofiles_18.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_18.dir/build.make po/CMakeFiles/pofiles_18.dir/clean
-.PHONY : po/CMakeFiles/pofiles_18.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_18.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_19.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_19.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_19.dir/build.make po/CMakeFiles/pofiles_19.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_19.dir/build.make po/CMakeFiles/pofiles_19.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  13
-	@echo "Built target pofiles_19"
-.PHONY : po/CMakeFiles/pofiles_19.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_19.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_19.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_19.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_19.dir/rule
-
-# Convenience name for target.
-pofiles_19: po/CMakeFiles/pofiles_19.dir/rule
-.PHONY : pofiles_19
-
-# clean rule for target.
-po/CMakeFiles/pofiles_19.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_19.dir/build.make po/CMakeFiles/pofiles_19.dir/clean
-.PHONY : po/CMakeFiles/pofiles_19.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_19.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_2.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_2.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_2.dir/build.make po/CMakeFiles/pofiles_2.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_2.dir/build.make po/CMakeFiles/pofiles_2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  14
-	@echo "Built target pofiles_2"
-.PHONY : po/CMakeFiles/pofiles_2.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_2.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_2.dir/rule
-
-# Convenience name for target.
-pofiles_2: po/CMakeFiles/pofiles_2.dir/rule
-.PHONY : pofiles_2
-
-# clean rule for target.
-po/CMakeFiles/pofiles_2.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_2.dir/build.make po/CMakeFiles/pofiles_2.dir/clean
-.PHONY : po/CMakeFiles/pofiles_2.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_2.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_20.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_20.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_20.dir/build.make po/CMakeFiles/pofiles_20.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_20.dir/build.make po/CMakeFiles/pofiles_20.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  15
-	@echo "Built target pofiles_20"
-.PHONY : po/CMakeFiles/pofiles_20.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_20.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_20.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_20.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_20.dir/rule
-
-# Convenience name for target.
-pofiles_20: po/CMakeFiles/pofiles_20.dir/rule
-.PHONY : pofiles_20
-
-# clean rule for target.
-po/CMakeFiles/pofiles_20.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_20.dir/build.make po/CMakeFiles/pofiles_20.dir/clean
-.PHONY : po/CMakeFiles/pofiles_20.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_20.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_21.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_21.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_21.dir/build.make po/CMakeFiles/pofiles_21.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_21.dir/build.make po/CMakeFiles/pofiles_21.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  16
-	@echo "Built target pofiles_21"
-.PHONY : po/CMakeFiles/pofiles_21.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_21.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_21.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_21.dir/rule
-
-# Convenience name for target.
-pofiles_21: po/CMakeFiles/pofiles_21.dir/rule
-.PHONY : pofiles_21
-
-# clean rule for target.
-po/CMakeFiles/pofiles_21.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_21.dir/build.make po/CMakeFiles/pofiles_21.dir/clean
-.PHONY : po/CMakeFiles/pofiles_21.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_21.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_22.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_22.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_22.dir/build.make po/CMakeFiles/pofiles_22.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_22.dir/build.make po/CMakeFiles/pofiles_22.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  17
-	@echo "Built target pofiles_22"
-.PHONY : po/CMakeFiles/pofiles_22.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_22.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_22.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_22.dir/rule
-
-# Convenience name for target.
-pofiles_22: po/CMakeFiles/pofiles_22.dir/rule
-.PHONY : pofiles_22
-
-# clean rule for target.
-po/CMakeFiles/pofiles_22.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_22.dir/build.make po/CMakeFiles/pofiles_22.dir/clean
-.PHONY : po/CMakeFiles/pofiles_22.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_22.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_3.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_3.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_3.dir/build.make po/CMakeFiles/pofiles_3.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_3.dir/build.make po/CMakeFiles/pofiles_3.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  18
-	@echo "Built target pofiles_3"
-.PHONY : po/CMakeFiles/pofiles_3.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_3.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_3.dir/rule
-
-# Convenience name for target.
-pofiles_3: po/CMakeFiles/pofiles_3.dir/rule
-.PHONY : pofiles_3
-
-# clean rule for target.
-po/CMakeFiles/pofiles_3.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_3.dir/build.make po/CMakeFiles/pofiles_3.dir/clean
-.PHONY : po/CMakeFiles/pofiles_3.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_3.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_4.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_4.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_4.dir/build.make po/CMakeFiles/pofiles_4.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_4.dir/build.make po/CMakeFiles/pofiles_4.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  19
-	@echo "Built target pofiles_4"
-.PHONY : po/CMakeFiles/pofiles_4.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_4.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_4.dir/rule
-
-# Convenience name for target.
-pofiles_4: po/CMakeFiles/pofiles_4.dir/rule
-.PHONY : pofiles_4
-
-# clean rule for target.
-po/CMakeFiles/pofiles_4.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_4.dir/build.make po/CMakeFiles/pofiles_4.dir/clean
-.PHONY : po/CMakeFiles/pofiles_4.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_4.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_5.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_5.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_5.dir/build.make po/CMakeFiles/pofiles_5.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_5.dir/build.make po/CMakeFiles/pofiles_5.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  20
-	@echo "Built target pofiles_5"
-.PHONY : po/CMakeFiles/pofiles_5.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_5.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_5.dir/rule
-
-# Convenience name for target.
-pofiles_5: po/CMakeFiles/pofiles_5.dir/rule
-.PHONY : pofiles_5
-
-# clean rule for target.
-po/CMakeFiles/pofiles_5.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_5.dir/build.make po/CMakeFiles/pofiles_5.dir/clean
-.PHONY : po/CMakeFiles/pofiles_5.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_5.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_6.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_6.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_6.dir/build.make po/CMakeFiles/pofiles_6.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_6.dir/build.make po/CMakeFiles/pofiles_6.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  21
-	@echo "Built target pofiles_6"
-.PHONY : po/CMakeFiles/pofiles_6.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_6.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_6.dir/rule
-
-# Convenience name for target.
-pofiles_6: po/CMakeFiles/pofiles_6.dir/rule
-.PHONY : pofiles_6
-
-# clean rule for target.
-po/CMakeFiles/pofiles_6.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_6.dir/build.make po/CMakeFiles/pofiles_6.dir/clean
-.PHONY : po/CMakeFiles/pofiles_6.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_6.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_7.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_7.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_7.dir/build.make po/CMakeFiles/pofiles_7.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_7.dir/build.make po/CMakeFiles/pofiles_7.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  22
-	@echo "Built target pofiles_7"
-.PHONY : po/CMakeFiles/pofiles_7.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_7.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_7.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_7.dir/rule
-
-# Convenience name for target.
-pofiles_7: po/CMakeFiles/pofiles_7.dir/rule
-.PHONY : pofiles_7
-
-# clean rule for target.
-po/CMakeFiles/pofiles_7.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_7.dir/build.make po/CMakeFiles/pofiles_7.dir/clean
-.PHONY : po/CMakeFiles/pofiles_7.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_7.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_8.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_8.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_8.dir/build.make po/CMakeFiles/pofiles_8.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_8.dir/build.make po/CMakeFiles/pofiles_8.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  23
-	@echo "Built target pofiles_8"
-.PHONY : po/CMakeFiles/pofiles_8.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_8.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_8.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_8.dir/rule
-
-# Convenience name for target.
-pofiles_8: po/CMakeFiles/pofiles_8.dir/rule
-.PHONY : pofiles_8
-
-# clean rule for target.
-po/CMakeFiles/pofiles_8.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_8.dir/build.make po/CMakeFiles/pofiles_8.dir/clean
-.PHONY : po/CMakeFiles/pofiles_8.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_8.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target po/CMakeFiles/pofiles_9.dir
-
-# All Build rule for target.
-po/CMakeFiles/pofiles_9.dir/all:
-	$(MAKE) -f po/CMakeFiles/pofiles_9.dir/build.make po/CMakeFiles/pofiles_9.dir/depend
-	$(MAKE) -f po/CMakeFiles/pofiles_9.dir/build.make po/CMakeFiles/pofiles_9.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles  24
-	@echo "Built target pofiles_9"
-.PHONY : po/CMakeFiles/pofiles_9.dir/all
-
-# Include target in all.
-all: po/CMakeFiles/pofiles_9.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-po/CMakeFiles/pofiles_9.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_9.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
-.PHONY : po/CMakeFiles/pofiles_9.dir/rule
-
-# Convenience name for target.
-pofiles_9: po/CMakeFiles/pofiles_9.dir/rule
-.PHONY : pofiles_9
-
-# clean rule for target.
-po/CMakeFiles/pofiles_9.dir/clean:
-	$(MAKE) -f po/CMakeFiles/pofiles_9.dir/build.make po/CMakeFiles/pofiles_9.dir/clean
-.PHONY : po/CMakeFiles/pofiles_9.dir/clean
-
-# clean rule for target.
-clean: po/CMakeFiles/pofiles_9.dir/clean
 .PHONY : clean
 
 #=============================================================================

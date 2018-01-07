@@ -85,8 +85,8 @@ Page {
              Item {
                  id: response
                  property var resp: [
-                     "Impressive.",
-                     "There is no try."
+                     i18n.tr("Impressive."),
+                     i18n.tr("There is no try.")
                      ]
                  }
 
@@ -121,7 +121,7 @@ Page {
              onTriggered: {
                  theWord.text = wordList.words[Math.floor(Math.random() * wordList.words.length)]
                  answer.text = ""
-                 status.text = "Do. Or do not."
+                 status.text = i18n.tr("Do. Or do not.")
                  }
              }
 

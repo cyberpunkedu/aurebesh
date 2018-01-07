@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 # Utility rule file for aurebesh.joe.pot.
 
@@ -46,11 +46,11 @@ CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
 include po/CMakeFiles/aurebesh.joe.pot.dir/progress.make
 
 po/CMakeFiles/aurebesh.joe.pot:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/black/ownCloud/aurebesh/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating translation template"
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/black/ownCloud/aurebesh-trainer/aurebesh aurebesh.joe.desktop.in
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po && /usr/bin/xgettext -o aurebesh.joe.pot -D /home/black/ownCloud/aurebesh-trainer/aurebesh/po -D /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=N_ --keyword=_ --package-name='aurebesh.joe' ../qml/Home.qml ../qml/AboutApp.qml ../qml/Chart.qml ../qml/modules/DefaultHeader.qml ../qml/modules/DefaultLabel.qml ../qml/Main.qml aurebesh.joe.desktop.in.h
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po && /usr/bin/cmake -E copy aurebesh.joe.pot /home/black/ownCloud/aurebesh-trainer/aurebesh/po
+	cd /home/black/ownCloud/aurebesh/build/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/black/ownCloud/aurebesh aurebesh.joe.desktop.in
+	cd /home/black/ownCloud/aurebesh/build/po && /usr/bin/xgettext -o aurebesh.joe.pot -D /home/black/ownCloud/aurebesh/po -D /home/black/ownCloud/aurebesh/build/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=N_ --keyword=_ --package-name='aurebesh.joe' ../qml/Home.qml ../qml/AboutApp.qml ../qml/Chart.qml ../qml/modules/DefaultHeader.qml ../qml/modules/DefaultLabel.qml ../qml/Main.qml aurebesh.joe.desktop.in.h
+	cd /home/black/ownCloud/aurebesh/build/po && /usr/bin/cmake -E copy aurebesh.joe.pot /home/black/ownCloud/aurebesh/po
 
 aurebesh.joe.pot: po/CMakeFiles/aurebesh.joe.pot
 aurebesh.joe.pot: po/CMakeFiles/aurebesh.joe.pot.dir/build.make
@@ -61,10 +61,10 @@ po/CMakeFiles/aurebesh.joe.pot.dir/build: aurebesh.joe.pot
 .PHONY : po/CMakeFiles/aurebesh.joe.pot.dir/build
 
 po/CMakeFiles/aurebesh.joe.pot.dir/clean:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po && $(CMAKE_COMMAND) -P CMakeFiles/aurebesh.joe.pot.dir/cmake_clean.cmake
+	cd /home/black/ownCloud/aurebesh/build/po && $(CMAKE_COMMAND) -P CMakeFiles/aurebesh.joe.pot.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/aurebesh.joe.pot.dir/clean
 
 po/CMakeFiles/aurebesh.joe.pot.dir/depend:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh-trainer/aurebesh /home/black/ownCloud/aurebesh-trainer/aurebesh/po /home/black/ownCloud/aurebesh-trainer/aurebesh/build /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po/CMakeFiles/aurebesh.joe.pot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/black/ownCloud/aurebesh /home/black/ownCloud/aurebesh/po /home/black/ownCloud/aurebesh/build /home/black/ownCloud/aurebesh/build/po /home/black/ownCloud/aurebesh/build/po/CMakeFiles/aurebesh.joe.pot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/aurebesh.joe.pot.dir/depend
 

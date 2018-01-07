@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,9 +114,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles /home/black/ownCloud/aurebesh/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -221,279 +221,6 @@ pofiles_1/fast:
 	$(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
 .PHONY : pofiles_1/fast
 
-#=============================================================================
-# Target rules for targets named pofiles_10
-
-# Build rule for target.
-pofiles_10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_10
-.PHONY : pofiles_10
-
-# fast build rule for target.
-pofiles_10/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_10.dir/build.make po/CMakeFiles/pofiles_10.dir/build
-.PHONY : pofiles_10/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_11
-
-# Build rule for target.
-pofiles_11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_11
-.PHONY : pofiles_11
-
-# fast build rule for target.
-pofiles_11/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_11.dir/build.make po/CMakeFiles/pofiles_11.dir/build
-.PHONY : pofiles_11/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_12
-
-# Build rule for target.
-pofiles_12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_12
-.PHONY : pofiles_12
-
-# fast build rule for target.
-pofiles_12/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_12.dir/build.make po/CMakeFiles/pofiles_12.dir/build
-.PHONY : pofiles_12/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_13
-
-# Build rule for target.
-pofiles_13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_13
-.PHONY : pofiles_13
-
-# fast build rule for target.
-pofiles_13/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_13.dir/build.make po/CMakeFiles/pofiles_13.dir/build
-.PHONY : pofiles_13/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_14
-
-# Build rule for target.
-pofiles_14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_14
-.PHONY : pofiles_14
-
-# fast build rule for target.
-pofiles_14/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_14.dir/build.make po/CMakeFiles/pofiles_14.dir/build
-.PHONY : pofiles_14/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_15
-
-# Build rule for target.
-pofiles_15: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_15
-.PHONY : pofiles_15
-
-# fast build rule for target.
-pofiles_15/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_15.dir/build.make po/CMakeFiles/pofiles_15.dir/build
-.PHONY : pofiles_15/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_16
-
-# Build rule for target.
-pofiles_16: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_16
-.PHONY : pofiles_16
-
-# fast build rule for target.
-pofiles_16/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_16.dir/build.make po/CMakeFiles/pofiles_16.dir/build
-.PHONY : pofiles_16/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_17
-
-# Build rule for target.
-pofiles_17: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_17
-.PHONY : pofiles_17
-
-# fast build rule for target.
-pofiles_17/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_17.dir/build.make po/CMakeFiles/pofiles_17.dir/build
-.PHONY : pofiles_17/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_18
-
-# Build rule for target.
-pofiles_18: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_18
-.PHONY : pofiles_18
-
-# fast build rule for target.
-pofiles_18/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_18.dir/build.make po/CMakeFiles/pofiles_18.dir/build
-.PHONY : pofiles_18/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_19
-
-# Build rule for target.
-pofiles_19: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_19
-.PHONY : pofiles_19
-
-# fast build rule for target.
-pofiles_19/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_19.dir/build.make po/CMakeFiles/pofiles_19.dir/build
-.PHONY : pofiles_19/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_2
-
-# Build rule for target.
-pofiles_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_2
-.PHONY : pofiles_2
-
-# fast build rule for target.
-pofiles_2/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_2.dir/build.make po/CMakeFiles/pofiles_2.dir/build
-.PHONY : pofiles_2/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_20
-
-# Build rule for target.
-pofiles_20: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_20
-.PHONY : pofiles_20
-
-# fast build rule for target.
-pofiles_20/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_20.dir/build.make po/CMakeFiles/pofiles_20.dir/build
-.PHONY : pofiles_20/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_21
-
-# Build rule for target.
-pofiles_21: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_21
-.PHONY : pofiles_21
-
-# fast build rule for target.
-pofiles_21/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_21.dir/build.make po/CMakeFiles/pofiles_21.dir/build
-.PHONY : pofiles_21/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_22
-
-# Build rule for target.
-pofiles_22: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_22
-.PHONY : pofiles_22
-
-# fast build rule for target.
-pofiles_22/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_22.dir/build.make po/CMakeFiles/pofiles_22.dir/build
-.PHONY : pofiles_22/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_3
-
-# Build rule for target.
-pofiles_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_3
-.PHONY : pofiles_3
-
-# fast build rule for target.
-pofiles_3/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_3.dir/build.make po/CMakeFiles/pofiles_3.dir/build
-.PHONY : pofiles_3/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_4
-
-# Build rule for target.
-pofiles_4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_4
-.PHONY : pofiles_4
-
-# fast build rule for target.
-pofiles_4/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_4.dir/build.make po/CMakeFiles/pofiles_4.dir/build
-.PHONY : pofiles_4/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_5
-
-# Build rule for target.
-pofiles_5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_5
-.PHONY : pofiles_5
-
-# fast build rule for target.
-pofiles_5/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_5.dir/build.make po/CMakeFiles/pofiles_5.dir/build
-.PHONY : pofiles_5/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_6
-
-# Build rule for target.
-pofiles_6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_6
-.PHONY : pofiles_6
-
-# fast build rule for target.
-pofiles_6/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_6.dir/build.make po/CMakeFiles/pofiles_6.dir/build
-.PHONY : pofiles_6/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_7
-
-# Build rule for target.
-pofiles_7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_7
-.PHONY : pofiles_7
-
-# fast build rule for target.
-pofiles_7/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_7.dir/build.make po/CMakeFiles/pofiles_7.dir/build
-.PHONY : pofiles_7/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_8
-
-# Build rule for target.
-pofiles_8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_8
-.PHONY : pofiles_8
-
-# fast build rule for target.
-pofiles_8/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_8.dir/build.make po/CMakeFiles/pofiles_8.dir/build
-.PHONY : pofiles_8/fast
-
-#=============================================================================
-# Target rules for targets named pofiles_9
-
-# Build rule for target.
-pofiles_9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pofiles_9
-.PHONY : pofiles_9
-
-# fast build rule for target.
-pofiles_9/fast:
-	$(MAKE) -f po/CMakeFiles/pofiles_9.dir/build.make po/CMakeFiles/pofiles_9.dir/build
-.PHONY : pofiles_9/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -512,27 +239,6 @@ help:
 	@echo "... aurebesh.joe.pot"
 	@echo "... pofiles"
 	@echo "... pofiles_1"
-	@echo "... pofiles_10"
-	@echo "... pofiles_11"
-	@echo "... pofiles_12"
-	@echo "... pofiles_13"
-	@echo "... pofiles_14"
-	@echo "... pofiles_15"
-	@echo "... pofiles_16"
-	@echo "... pofiles_17"
-	@echo "... pofiles_18"
-	@echo "... pofiles_19"
-	@echo "... pofiles_2"
-	@echo "... pofiles_20"
-	@echo "... pofiles_21"
-	@echo "... pofiles_22"
-	@echo "... pofiles_3"
-	@echo "... pofiles_4"
-	@echo "... pofiles_5"
-	@echo "... pofiles_6"
-	@echo "... pofiles_7"
-	@echo "... pofiles_8"
-	@echo "... pofiles_9"
 .PHONY : help
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh
+CMAKE_SOURCE_DIR = /home/black/ownCloud/aurebesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh-trainer/aurebesh/build
+CMAKE_BINARY_DIR = /home/black/ownCloud/aurebesh/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,14 +114,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles /home/black/ownCloud/aurebesh-trainer/aurebesh/build/po/CMakeFiles/progress.marks
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh-trainer/aurebesh/build/CMakeFiles 0
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles /home/black/ownCloud/aurebesh/build/po/CMakeFiles/progress.marks
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/black/ownCloud/aurebesh/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/clean
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 po/CMakeFiles/aurebesh.joe.pot.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/aurebesh.joe.pot.dir/rule
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/aurebesh.joe.pot.dir/rule
 .PHONY : po/CMakeFiles/aurebesh.joe.pot.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ aurebesh.joe.pot: po/CMakeFiles/aurebesh.joe.pot.dir/rule
 
 # fast build rule for target.
 aurebesh.joe.pot/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/aurebesh.joe.pot.dir/build.make po/CMakeFiles/aurebesh.joe.pot.dir/build
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f po/CMakeFiles/aurebesh.joe.pot.dir/build.make po/CMakeFiles/aurebesh.joe.pot.dir/build
 .PHONY : aurebesh.joe.pot/fast
 
 # Convenience name for target.
 po/CMakeFiles/pofiles.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles.dir/rule
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles.dir/rule
 .PHONY : po/CMakeFiles/pofiles.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ pofiles: po/CMakeFiles/pofiles.dir/rule
 
 # fast build rule for target.
 pofiles/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/build
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/build
 .PHONY : pofiles/fast
 
 # Convenience name for target.
 po/CMakeFiles/pofiles_1.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_1.dir/rule
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_1.dir/rule
 .PHONY : po/CMakeFiles/pofiles_1.dir/rule
 
 # Convenience name for target.
@@ -182,302 +182,8 @@ pofiles_1: po/CMakeFiles/pofiles_1.dir/rule
 
 # fast build rule for target.
 pofiles_1/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
+	cd /home/black/ownCloud/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
 .PHONY : pofiles_1/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_10.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_10.dir/rule
-.PHONY : po/CMakeFiles/pofiles_10.dir/rule
-
-# Convenience name for target.
-pofiles_10: po/CMakeFiles/pofiles_10.dir/rule
-.PHONY : pofiles_10
-
-# fast build rule for target.
-pofiles_10/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_10.dir/build.make po/CMakeFiles/pofiles_10.dir/build
-.PHONY : pofiles_10/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_11.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_11.dir/rule
-.PHONY : po/CMakeFiles/pofiles_11.dir/rule
-
-# Convenience name for target.
-pofiles_11: po/CMakeFiles/pofiles_11.dir/rule
-.PHONY : pofiles_11
-
-# fast build rule for target.
-pofiles_11/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_11.dir/build.make po/CMakeFiles/pofiles_11.dir/build
-.PHONY : pofiles_11/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_12.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_12.dir/rule
-.PHONY : po/CMakeFiles/pofiles_12.dir/rule
-
-# Convenience name for target.
-pofiles_12: po/CMakeFiles/pofiles_12.dir/rule
-.PHONY : pofiles_12
-
-# fast build rule for target.
-pofiles_12/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_12.dir/build.make po/CMakeFiles/pofiles_12.dir/build
-.PHONY : pofiles_12/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_13.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_13.dir/rule
-.PHONY : po/CMakeFiles/pofiles_13.dir/rule
-
-# Convenience name for target.
-pofiles_13: po/CMakeFiles/pofiles_13.dir/rule
-.PHONY : pofiles_13
-
-# fast build rule for target.
-pofiles_13/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_13.dir/build.make po/CMakeFiles/pofiles_13.dir/build
-.PHONY : pofiles_13/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_14.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_14.dir/rule
-.PHONY : po/CMakeFiles/pofiles_14.dir/rule
-
-# Convenience name for target.
-pofiles_14: po/CMakeFiles/pofiles_14.dir/rule
-.PHONY : pofiles_14
-
-# fast build rule for target.
-pofiles_14/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_14.dir/build.make po/CMakeFiles/pofiles_14.dir/build
-.PHONY : pofiles_14/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_15.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_15.dir/rule
-.PHONY : po/CMakeFiles/pofiles_15.dir/rule
-
-# Convenience name for target.
-pofiles_15: po/CMakeFiles/pofiles_15.dir/rule
-.PHONY : pofiles_15
-
-# fast build rule for target.
-pofiles_15/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_15.dir/build.make po/CMakeFiles/pofiles_15.dir/build
-.PHONY : pofiles_15/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_16.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_16.dir/rule
-.PHONY : po/CMakeFiles/pofiles_16.dir/rule
-
-# Convenience name for target.
-pofiles_16: po/CMakeFiles/pofiles_16.dir/rule
-.PHONY : pofiles_16
-
-# fast build rule for target.
-pofiles_16/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_16.dir/build.make po/CMakeFiles/pofiles_16.dir/build
-.PHONY : pofiles_16/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_17.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_17.dir/rule
-.PHONY : po/CMakeFiles/pofiles_17.dir/rule
-
-# Convenience name for target.
-pofiles_17: po/CMakeFiles/pofiles_17.dir/rule
-.PHONY : pofiles_17
-
-# fast build rule for target.
-pofiles_17/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_17.dir/build.make po/CMakeFiles/pofiles_17.dir/build
-.PHONY : pofiles_17/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_18.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_18.dir/rule
-.PHONY : po/CMakeFiles/pofiles_18.dir/rule
-
-# Convenience name for target.
-pofiles_18: po/CMakeFiles/pofiles_18.dir/rule
-.PHONY : pofiles_18
-
-# fast build rule for target.
-pofiles_18/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_18.dir/build.make po/CMakeFiles/pofiles_18.dir/build
-.PHONY : pofiles_18/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_19.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_19.dir/rule
-.PHONY : po/CMakeFiles/pofiles_19.dir/rule
-
-# Convenience name for target.
-pofiles_19: po/CMakeFiles/pofiles_19.dir/rule
-.PHONY : pofiles_19
-
-# fast build rule for target.
-pofiles_19/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_19.dir/build.make po/CMakeFiles/pofiles_19.dir/build
-.PHONY : pofiles_19/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_2.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_2.dir/rule
-.PHONY : po/CMakeFiles/pofiles_2.dir/rule
-
-# Convenience name for target.
-pofiles_2: po/CMakeFiles/pofiles_2.dir/rule
-.PHONY : pofiles_2
-
-# fast build rule for target.
-pofiles_2/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_2.dir/build.make po/CMakeFiles/pofiles_2.dir/build
-.PHONY : pofiles_2/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_20.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_20.dir/rule
-.PHONY : po/CMakeFiles/pofiles_20.dir/rule
-
-# Convenience name for target.
-pofiles_20: po/CMakeFiles/pofiles_20.dir/rule
-.PHONY : pofiles_20
-
-# fast build rule for target.
-pofiles_20/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_20.dir/build.make po/CMakeFiles/pofiles_20.dir/build
-.PHONY : pofiles_20/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_21.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_21.dir/rule
-.PHONY : po/CMakeFiles/pofiles_21.dir/rule
-
-# Convenience name for target.
-pofiles_21: po/CMakeFiles/pofiles_21.dir/rule
-.PHONY : pofiles_21
-
-# fast build rule for target.
-pofiles_21/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_21.dir/build.make po/CMakeFiles/pofiles_21.dir/build
-.PHONY : pofiles_21/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_22.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_22.dir/rule
-.PHONY : po/CMakeFiles/pofiles_22.dir/rule
-
-# Convenience name for target.
-pofiles_22: po/CMakeFiles/pofiles_22.dir/rule
-.PHONY : pofiles_22
-
-# fast build rule for target.
-pofiles_22/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_22.dir/build.make po/CMakeFiles/pofiles_22.dir/build
-.PHONY : pofiles_22/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_3.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_3.dir/rule
-.PHONY : po/CMakeFiles/pofiles_3.dir/rule
-
-# Convenience name for target.
-pofiles_3: po/CMakeFiles/pofiles_3.dir/rule
-.PHONY : pofiles_3
-
-# fast build rule for target.
-pofiles_3/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_3.dir/build.make po/CMakeFiles/pofiles_3.dir/build
-.PHONY : pofiles_3/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_4.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_4.dir/rule
-.PHONY : po/CMakeFiles/pofiles_4.dir/rule
-
-# Convenience name for target.
-pofiles_4: po/CMakeFiles/pofiles_4.dir/rule
-.PHONY : pofiles_4
-
-# fast build rule for target.
-pofiles_4/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_4.dir/build.make po/CMakeFiles/pofiles_4.dir/build
-.PHONY : pofiles_4/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_5.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_5.dir/rule
-.PHONY : po/CMakeFiles/pofiles_5.dir/rule
-
-# Convenience name for target.
-pofiles_5: po/CMakeFiles/pofiles_5.dir/rule
-.PHONY : pofiles_5
-
-# fast build rule for target.
-pofiles_5/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_5.dir/build.make po/CMakeFiles/pofiles_5.dir/build
-.PHONY : pofiles_5/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_6.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_6.dir/rule
-.PHONY : po/CMakeFiles/pofiles_6.dir/rule
-
-# Convenience name for target.
-pofiles_6: po/CMakeFiles/pofiles_6.dir/rule
-.PHONY : pofiles_6
-
-# fast build rule for target.
-pofiles_6/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_6.dir/build.make po/CMakeFiles/pofiles_6.dir/build
-.PHONY : pofiles_6/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_7.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_7.dir/rule
-.PHONY : po/CMakeFiles/pofiles_7.dir/rule
-
-# Convenience name for target.
-pofiles_7: po/CMakeFiles/pofiles_7.dir/rule
-.PHONY : pofiles_7
-
-# fast build rule for target.
-pofiles_7/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_7.dir/build.make po/CMakeFiles/pofiles_7.dir/build
-.PHONY : pofiles_7/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_8.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_8.dir/rule
-.PHONY : po/CMakeFiles/pofiles_8.dir/rule
-
-# Convenience name for target.
-pofiles_8: po/CMakeFiles/pofiles_8.dir/rule
-.PHONY : pofiles_8
-
-# fast build rule for target.
-pofiles_8/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_8.dir/build.make po/CMakeFiles/pofiles_8.dir/build
-.PHONY : pofiles_8/fast
-
-# Convenience name for target.
-po/CMakeFiles/pofiles_9.dir/rule:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_9.dir/rule
-.PHONY : po/CMakeFiles/pofiles_9.dir/rule
-
-# Convenience name for target.
-pofiles_9: po/CMakeFiles/pofiles_9.dir/rule
-.PHONY : pofiles_9
-
-# fast build rule for target.
-pofiles_9/fast:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(MAKE) -f po/CMakeFiles/pofiles_9.dir/build.make po/CMakeFiles/pofiles_9.dir/build
-.PHONY : pofiles_9/fast
 
 # Help Target
 help:
@@ -493,27 +199,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... pofiles"
 	@echo "... pofiles_1"
-	@echo "... pofiles_10"
-	@echo "... pofiles_11"
-	@echo "... pofiles_12"
-	@echo "... pofiles_13"
-	@echo "... pofiles_14"
-	@echo "... pofiles_15"
-	@echo "... pofiles_16"
-	@echo "... pofiles_17"
-	@echo "... pofiles_18"
-	@echo "... pofiles_19"
-	@echo "... pofiles_2"
-	@echo "... pofiles_20"
-	@echo "... pofiles_21"
-	@echo "... pofiles_22"
-	@echo "... pofiles_3"
-	@echo "... pofiles_4"
-	@echo "... pofiles_5"
-	@echo "... pofiles_6"
-	@echo "... pofiles_7"
-	@echo "... pofiles_8"
-	@echo "... pofiles_9"
 	@echo "... rebuild_cache"
 .PHONY : help
 
@@ -526,6 +211,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/black/ownCloud/aurebesh-trainer/aurebesh/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/black/ownCloud/aurebesh/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/black/ownCloud/aurebesh-trainer/aurebesh
+# Install script for directory: /home/black/ownCloud/aurebesh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/black/ownCloud/aurebesh-trainer/aurebesh/build/manifest.json")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/black/ownCloud/aurebesh/build/manifest.json")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -53,7 +53,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/black/ownCloud/aurebesh-trainer/aurebesh/aurebesh.joe.apparmor")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/black/ownCloud/aurebesh/aurebesh.joe.apparmor")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -65,7 +65,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/black/ownCloud/aurebesh-trainer/aurebesh/qml")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/black/ownCloud/aurebesh/qml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -77,7 +77,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/black/ownCloud/aurebesh-trainer/aurebesh/assets")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/black/ownCloud/aurebesh/assets")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -89,12 +89,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/black/ownCloud/aurebesh-trainer/aurebesh/build/aurebesh.joe.desktop")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/black/ownCloud/aurebesh/build/aurebesh.joe.desktop")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/black/ownCloud/aurebesh-trainer/aurebesh/build/po/cmake_install.cmake")
+  include("/home/black/ownCloud/aurebesh/build/po/cmake_install.cmake")
 
 endif()
 
@@ -104,7 +104,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/home/black/ownCloud/aurebesh-trainer/aurebesh/build/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/home/black/ownCloud/aurebesh/build/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/home/black/ownCloud/aurebesh-trainer/aurebesh/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/home/black/ownCloud/aurebesh/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()
