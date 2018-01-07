@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: com.ubuntu.sayubuntu\n"
+"Project-Id-Version: aurebesh.joe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-30 04:35+0000\n"
+"POT-Creation-Date: 2018-01-06 18:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,69 +17,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Home.qml:33
-msgid "Say Ubuntu like %1!"
-msgstr "Dites Ubuntu comme %1 !"
+#: ../qml/Home.qml:34 ../qml/AboutApp.qml:31 ../qml/Chart.qml:31
+#: ../qml/Main.qml:32 aurebesh.joe.desktop.in.h:1
+msgid "Aurebesh"
+msgstr "Aurebesh"
 
-#: ../qml/Home.qml:75
-msgid "Press to say 'ubuntu' like %1"
-msgstr "Appuyez pour dire « ubuntu » comme %1"
+#: ../qml/Home.qml:97
+msgid "Check"
+msgstr "Vérifier"
 
-#: ../qml/AboutApp.qml:31 ../qml/AboutUbuntu.qml:31 ../qml/Main.qml:32
-#: com.ubuntu.sayubuntu.desktop.in.h:1
-msgid "Say Ubuntu"
-msgstr "Dites Ubuntu"
+#: ../qml/Home.qml:104
+msgid "Skip"
+msgstr "Passer"
 
 #: ../qml/AboutApp.qml:47
-msgid "About Say Ubuntu"
-msgstr "À propos de Dites Ubuntu"
+msgid "About Aurebesh"
+msgstr "À propos d'Aurebesh"
 
 #: ../qml/AboutApp.qml:61
 msgid "Version: "
 msgstr "Version : "
 
 #: ../qml/AboutApp.qml:65
-msgid "Now you know how to say 'ubuntu'"
-msgstr "Maintenant, vous savez comment dire « ubuntu »"
+msgid ""
+"Practice reading Aurebesh words from the Star Wars universe. Input the word "
+"that you see on the screen and press 'Check' to see if it is correct. Press "
+"'Skip' to test a different word instead."
+msgstr ""
+"Pratiquez la lecture des mots en Aurebesh de l'univers de Star Wars. Saisissez le mot "
+"que vous voyez à l'écran et appuyez sur « Vérifier » pour voir si celui-ci est correct. Appuyez "
+"sur « Passer » pour tester un autre mot à la place."
 
 #. TRANSLATORS: Description of the menu item
-#: ../qml/AboutUbuntu.qml:47 ../qml/modules/DefaultHeader.qml:37
-msgid "About Ubuntu"
-msgstr "À propos d'Ubuntu"
-
 #: ../qml/modules/DefaultHeader.qml:37
-msgid "Report Bugs"
-msgstr "Signaler les Bugs"
-
-#: ../qml/AboutUbuntu.qml:60
-msgid "ubuntu |oǒ'boǒntoō|"
-msgstr "ubuntu |oǒ'boǒntoō|"
-
-#: ../qml/AboutUbuntu.qml:65
-msgid ""
-"Ubuntu is an ancient African word meaning ‘humanity to others’. It also "
-"means ‘I am what I am because of who we all are’. The Ubuntu operating "
-"system brings the spirit of Ubuntu to the world of computers. (ubuntu.com)"
-msgstr ""
-"Ubuntu est un ancien mot africain qui signifie « humanité envers les autres ». Il "
-"signifie également « Je suis ce que je suis en raison de ce que nous sommes tous ». Le système "
-"d'exploitation Ubuntu apporte l'esprit d'Ubuntu dans le monde de l'informatique. (ubuntu.com)"
-
-#: ../qml/AboutUbuntu.qml:69
-msgid ""
-"'A person with ubuntu is open and available to others, affirming of others, "
-"does not feel threatened that others are able and good, for he or she has a "
-"proper self-assurance that comes from knowing that he or she belongs in a "
-"greater whole and is diminished when others are humiliated or diminished, "
-"when others are tortured or oppressed.' --Archbishop Desmond Tutu <br />"
-msgstr ""
-"« Quelqu'un d'ubuntu est ouvert et disponible pour les autres, dévoué aux autres, "
-"ne se sent pas menacé parce que les autres sont capables et bons car il ou elle possède "
-"sa propre estime de soi qui vient de la connaissance qu'il ou elle a d'appartenir à quelque chose "
-"de plus grand et qu'il ou elle est diminué quand les autres sont diminués ou humiliés, "
-"quand les autres sont torturés ou opprimés. » --Archevêque Desmond Tutu <br />"
+msgid "Aurebesh Chart"
+msgstr "Tableau Aurebesh"
 
 #. TRANSLATORS: Description of the menu item
 #: ../qml/modules/DefaultHeader.qml:43
 msgid "About This App"
 msgstr "À propos de cette application"
+
+#: ../qml/modules/DefaultHeader.qml:48
+msgid "Report Bugs"
+msgstr "Signaler un problème"
