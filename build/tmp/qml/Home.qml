@@ -79,7 +79,7 @@ Page {
              Text {
                  id: status
                  anchors.horizontalCenter: parent.horizontalCenter
-                 text: "Do. Or do not."
+                 text: i18n.tr("Do. Or do not.")
                  }
 
              Item {

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aurebesh.joe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 16:25+0000\n"
+"POT-Creation-Date: 2018-01-07 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,10 @@ msgstr ""
 #: ../qml/Home.qml:34 ../qml/AboutApp.qml:31 ../qml/Chart.qml:31
 #: ../qml/Main.qml:32 aurebesh.joe.desktop.in.h:1
 msgid "Aurebesh"
+msgstr ""
+
+#: ../qml/Home.qml:82 ../qml/Home.qml:124
+msgid "Do. Or do not."
 msgstr ""
 
 #: ../qml/Home.qml:88
@@ -36,10 +40,6 @@ msgstr ""
 
 #: ../qml/Home.qml:104
 msgid "Skip"
-msgstr ""
-
-#: ../qml/Home.qml:124
-msgid "Do. Or do not."
 msgstr ""
 
 #: ../qml/AboutApp.qml:47
