@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: aurebesh.joe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-07 16:34+0000\n"
+"PO-Revision-Date: 2018-02-24 20:40+0100\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Language-Team: UBports Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../qml/Home.qml:34 ../qml/AboutApp.qml:31 ../qml/Chart.qml:31
+#: ../qml/Main.qml:32 aurebesh.joe.desktop.in.h:1
+msgid "Aurebesh"
+msgstr "Aurebesh"
+
+#: ../qml/Home.qml:82 ../qml/Home.qml:124
+msgid "Do. Or do not."
+msgstr "Hazlo. O no lo hagas."
+
+#: ../qml/Home.qml:88
+msgid "Impressive."
+msgstr "Impresionante."
+
+#: ../qml/Home.qml:89
+msgid "There is no try."
+msgstr "Pero no lo intentes."
+
+#: ../qml/Home.qml:97
+msgid "Check"
+msgstr "Comprobar"
+
+#: ../qml/Home.qml:104
+msgid "Skip"
+msgstr "Saltar"
+
+#: ../qml/AboutApp.qml:47
+msgid "About Aurebesh"
+msgstr "Acerca de Aurebesh"
+
+#: ../qml/AboutApp.qml:61
+msgid "Version: "
+msgstr "Versión: "
+
+#: ../qml/AboutApp.qml:65
+msgid ""
+"Practice reading Aurebesh words from the Star Wars universe. Input the word "
+"that you see on the screen and press 'Check' to see if it is correct. Press "
+"'Skip' to test a different word instead."
+msgstr ""
+"Practique leyendo palabras en Aurebesh del universo Star Wars (La Guerra de "
+"las Galaxias). Introduzca la palabra que ve en la pantalla y pulse 'Comprobar' "
+"para ver si es correcta. Pulse 'Saltar' para probar otra palabra diferente."
+
+#. TRANSLATORS: Description of the menu item
+#: ../qml/modules/DefaultHeader.qml:37
+msgid "Aurebesh Chart"
+msgstr "Mapa Aurebesh"
+
+#. TRANSLATORS: Description of the menu item
+#: ../qml/modules/DefaultHeader.qml:43
+msgid "About This App"
+msgstr "Acerca de esta aplicación"
+
+#: ../qml/modules/DefaultHeader.qml:48
+msgid "Report Bugs"
+msgstr "Informar de errores"
