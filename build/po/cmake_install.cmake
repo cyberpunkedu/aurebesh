@@ -1,4 +1,4 @@
-# Install script for directory: /home/black/ownCloud/aurebesh/po
+# Install script for directory: /home/black/Nextcloud/ut-apps/aurebesh/po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,6 +41,18 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/share/locale/fr/LC_MESSAGES" TYPE FILE RENAME "aurebesh.joe.mo" FILES "/home/black/ownCloud/aurebesh/build/po/fr.gmo")
+file(INSTALL DESTINATION "/share/locale/fr/LC_MESSAGES" TYPE FILE RENAME "aurebesh.joe.mo" FILES "/home/black/Nextcloud/ut-apps/aurebesh/build/po/fr.gmo")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/share/locale/es/LC_MESSAGES/aurebesh.joe.mo")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/share/locale/es/LC_MESSAGES" TYPE FILE RENAME "aurebesh.joe.mo" FILES "/home/black/Nextcloud/ut-apps/aurebesh/build/po/es.gmo")
 endif()
 

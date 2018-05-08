@@ -37,7 +37,7 @@ Window {
     maximumWidth: Screen.width
     maximumHeight: Screen.height
 
-    property string version: "0.2"
+    property string version: "0.3"
 
     Component.onCompleted: {
         console.log("Aurebesh started\n")

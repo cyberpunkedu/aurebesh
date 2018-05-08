@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Aurebesh
+Name[es]=Aurebesh
 Name[fr]=Aurebesh
 Exec=qmlscene qml/Main.qml
 Icon=assets/logo.png

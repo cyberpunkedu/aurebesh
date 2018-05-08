@@ -1,15 +1,15 @@
 {
-    "maintainer": "Joe <joe@ubports.com>", 
-    "name": "aurebesh.joe", 
-    "title": "Aurebesh", 
+    "name": "aurebesh.joe",
+    "description": "Learn to read Aurebesh",
+    "title": "Aurebesh",
     "hooks": {
         "aurebesh": {
-            "apparmor": "aurebesh.joe.apparmor", 
+            "apparmor": "aurebesh.joe.apparmor",
             "desktop": "aurebesh.joe.desktop"
         }
-    }, 
-    "framework": "ubuntu-sdk-15.04.6", 
-    "version": "0.2", 
-    "architecture": "all", 
-    "description": "Learn to read Aurebesh"
+    },
+    "version": "0.2",
+    "maintainer": "Joe <joe@ubports.com>",
+    "framework": "ubuntu-sdk-16.04",
+    "architecture": "all"
 }

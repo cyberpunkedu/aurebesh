@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the aurebesh.joe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aurebesh.joe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 16:34+0000\n"
+"POT-Creation-Date: 2018-05-08 01:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,24 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Home.qml:34 ../qml/AboutApp.qml:31 ../qml/Chart.qml:31
-#: ../qml/Main.qml:32 aurebesh.joe.desktop.in.h:1
+#: ../qml/AboutApp.qml:31 ../qml/Main.qml:32 ../qml/Home.qml:34
+#: ../qml/Chart.qml:31 aurebesh.joe.desktop.in.h:1
 msgid "Aurebesh"
+msgstr ""
+
+#: ../qml/AboutApp.qml:47
+msgid "About Aurebesh"
+msgstr ""
+
+#: ../qml/AboutApp.qml:61
+msgid "Version: "
+msgstr ""
+
+#: ../qml/AboutApp.qml:65
+msgid ""
+"Practice reading Aurebesh words from the Star Wars universe. Input the word "
+"that you see on the screen and press 'Check' to see if it is correct. Press "
+"'Skip' to test a different word instead."
 msgstr ""
 
 #: ../qml/Home.qml:82 ../qml/Home.qml:124
@@ -40,21 +55,6 @@ msgstr ""
 
 #: ../qml/Home.qml:104
 msgid "Skip"
-msgstr ""
-
-#: ../qml/AboutApp.qml:47
-msgid "About Aurebesh"
-msgstr ""
-
-#: ../qml/AboutApp.qml:61
-msgid "Version: "
-msgstr ""
-
-#: ../qml/AboutApp.qml:65
-msgid ""
-"Practice reading Aurebesh words from the Star Wars universe. Input the word "
-"that you see on the screen and press 'Check' to see if it is correct. Press "
-"'Skip' to test a different word instead."
 msgstr ""
 
 #. TRANSLATORS: Description of the menu item
