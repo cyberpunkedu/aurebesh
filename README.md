@@ -1,3 +1,5 @@
+# Project moved to:
+https://gitlab.com/joboticon/aurebesh
 
 ## Aurebesh
 
